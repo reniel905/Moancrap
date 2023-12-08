@@ -1,7 +1,7 @@
 import java.awt.*;
 import java.util.*;
 
-public class Player implements Character{
+public class Player implements CharacterActions, Character{
     static HashSet<Item> localInventory = new HashSet<>();
     String itemName[] = {"Bottled Water", "Snack", ""};
     Random random = new Random();
